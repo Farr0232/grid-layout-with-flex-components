@@ -17,6 +17,8 @@
   }
   
   .emoji a {
+    /* margin-top is the correct way */
+    margin-top: auto;
     text-decoration: none;
     background-color: #781BAA;
     color: white;
@@ -36,7 +38,7 @@
     grid-template-columns: 450px 450px;
     gap: 15px;
   }
-
-  .emoji p {
+  /* This was wrong as it affected all the squares */
+  /* .emojis p{
     flex-basis: 6rem;
-  }
+  } */
